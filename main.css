@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+div {
+    text-align: center;
+    width: 1210px;
+    margin: 0 auto;
+}
