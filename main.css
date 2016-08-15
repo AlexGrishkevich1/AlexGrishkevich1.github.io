@@ -1,14 +1,20 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-.clearfix:after {
-    content: '';
+
+a.maket {
+    margin: 5px auto 30px auto;
     display: block;
-    clear: both;
+    width: 170px;
+    transition: transform 0.2s ease;
+    font-size: 0;
 }
-div {
-    text-align: center;
-    width: 1210px;
-    margin: 0 auto;
+a.maket:hover{
+    transform: scale(1.2);
+    box-shadow: 0 0 4px 3px #337ab7;
+}
+a.maket img {
+    border: 1px solid #337ab7;
+}
+.btn-jpeg,
+.btn-psd {
+    float: left;
+    margin-right: 10px;
 }

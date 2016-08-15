@@ -13,6 +13,7 @@ a img {
     content: '';
     display: block;
     clear: both;
+}  width: 100%;
 }
 .page-part-2,
 .page-part-4,
