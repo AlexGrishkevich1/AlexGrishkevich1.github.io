@@ -37,13 +37,23 @@ a.maket img {
 .btn-psd {
     display: inline-block;
     /*margin-right: 5px;*/
+    border-radius: 0;
 }
-p>a.btn-psd {
+.btn-jpeg {
+    
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.btn-psd {
     background-color: #337ab7;
     color: white;
     border-color: #2e6da4;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    margin-left: -5px;
 }
-p>a.btn-psd:hover {
+.btn-psd:hover {
     background-color: #286090;
     color: white;
     border-color: #204d74;
