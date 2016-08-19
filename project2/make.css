@@ -13,7 +13,6 @@ a img {
     content: '';
     display: block;
     clear: both;
-}  width: 100%;
 }
 .page-part-2,
 .page-part-4,
@@ -364,6 +363,9 @@ input[name="tab-switch"] {
     font-weight: 700;
     letter-spacing: 0;
 }
+.mean1-sale>div>div {
+    letter-spacing: 11px;
+}
 .mean1:hover .mean1-sale {
     opacity: 1;
 }
@@ -447,6 +449,9 @@ input[name="tab-switch"] {
     font-weight: 700;
     line-height: 34px;
     letter-spacing: 0;
+}
+.mean3-sale>div>div {
+    letter-spacing: 13px;
 }
 .mean4,
 .mean4-sale {
