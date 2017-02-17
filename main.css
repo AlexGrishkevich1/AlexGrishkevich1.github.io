@@ -3,20 +3,23 @@
     display: block;
     clear: both;
 }
+.my-name {
+    color: #1661a1;
+}
 .jumbotron .container {
     width: 1170px;
 }
 .container {
     width: 92%;
 }
-.col-md-4 {
+.col-md-3 {
     text-align: center;
 }
-.col-md-4 p {
+.col-md-3 p {
     display: block;
     margin: 12px auto;
 }
-.col-md-4 a {
+.col-md-3 a {
     margin-bottom: 8px;
 }
 a.maket {
