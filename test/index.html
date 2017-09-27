@@ -1,0 +1,169 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <link rel=stylesheet href='style.css'>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+         
+        <script src="slider/jquery.bxslider.min.js"></script>
+        <script src="jquery.visible.js"></script>
+        <link href="slider/jquery.bxslider.css" rel="stylesheet" />
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+    </head>
+    <body>
+        <div class='body clearfix'>
+            <header>Обретите фигуру своей мечты
+            </header>
+            <main>
+                <div class='basic'>
+                    <div class='clearfix'>
+                        <div class='basic-1-2 clearfix'>
+                            <div class='basic-1 clearfix'>
+                                <span>Похудейте<br> на 10 кг за 10 дней!</span>
+                                <span>Оставьте свой email книгу с 330 простыми и вкусными рецептами для ускорения метаболизма</span>
+                                <ul>
+                                    <li>Никакого спорта</li>
+                                    <li>Никаких диет</li>
+                                    <li>Никаких медикаментов</li>
+                                </ul>
+                            </div>
+                            <div class='basic-2 clearfix'>
+                            </div>
+                        </div>
+                        <div class='basic-3'>
+                            <div style='font-family: serif; color: #ffd200;'>Бестселлер Милы Гриценко</div>
+                            <div class='for-free'>Бесплатно</div>
+                            <div>только до 
+                                <span class='date'></span>.
+                                <span class='month'></span>.
+                                <span class='year'></span>
+                            </div>
+                            <form action="" method='post' name="guest" onSubmit="return provGuest(); ">
+                                <input type='text' name='name' placeholder='Ваше имя'>
+                                <input type='email'  name='email' placeholder='Ваше e-mail' placeholder='@'>
+                                <input type='submit' id="submit" name='submit' value='Получить книгу'>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class='addit'>
+                    <span>Стройное, подтянутое тело без складок и целлюлита всего за 10 дней</span>
+                    <img class='arrow' src='arrow.png'>
+                </div>
+                <div class='black-switcher'>
+                    <div class='switcher'>
+                        <ul class="bxslider">
+                            <li>
+                                <div class='double-review clearfix'>
+                                    <div class='review clearfix'>
+                                        <div class='ava'><img src='ava_1.png'></div>
+                                        <div class='review-text'>
+                                            <span>Никогда не готовила ничего сложнее отварных макарон. Теперь готовлю, как шеф-повар модного ресторана! ВСе безумно вкусно и полезно. И тающие килограммы в качестве бонуса. Разве не прекрасно?</span>
+                                            <span class='name'>Марта, 28 лет</span>
+                                            <span class='city'>Гомель</span>
+                                        </div>
+                                    </div>
+                                    <div class='review clearfix'>
+                                        <div class='ava'><img src='ava_2.png'></div>
+                                        <div class='review-text'>
+                                            <span>Не думала, что в моем возрасте смогу выглядеть как девчонка. Всю жизнь была пышкой, а ту такая красота - сама на себя не налюбуюсь. Мой случай - подтверждение того, что после 40 жизнь только начинается. Мила Гриценко - мой герой.</span>
+                                            <span class='name'>Марина, 40 лет</span>
+                                            <span class='city'>Мачулищи</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class='double-review clearfix'>
+                                    <div class='review clearfix'>
+                                        <div class='ava'><img src='ava_1.png'></div>
+                                        <div class='review-text'>
+                                            <span>Никогда не готовила ничего сложнее отварных макарон. Теперь готовлю, как шеф-повар модного ресторана! ВСе безумно вкусно и полезно. И тающие килограммы в качестве бонуса. Разве не прекрасно?</span>
+                                            <span class='name'>Марта, 28 лет</span>
+                                            <span class='city'>Гомель</span>
+                                        </div>
+                                    </div>
+                                    <div class='review clearfix'>
+                                        <div class='ava'><img src='ava_2.png'></div>
+                                        <div class='review-text'>
+                                            <span>Не думала, что в моем возрасте смогу выглядеть как девчонка. Всю жизнь была пышкой, а ту такая красота - сама на себя не налюбуюсь. Мой случай - подтверждение того, что после 40 жизнь только начинается. Мила Гриценко - мой герой.</span>
+                                            <span class='name'>Марина, 40 лет</span>
+                                            <span class='city'>Мачулищи</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class='double-review clearfix'>
+                                    <div class='review clearfix'>
+                                        <div class='ava'><img src='ava_1.png'></div>
+                                        <div class='review-text'>
+                                            <span>Никогда не готовила ничего сложнее отварных макарон. Теперь готовлю, как шеф-повар модного ресторана! ВСе безумно вкусно и полезно. И тающие килограммы в качестве бонуса. Разве не прекрасно?</span>
+                                            <span class='name'>Марта, 28 лет</span>
+                                            <span class='city'>Гомель</span>
+                                        </div>
+                                    </div>
+                                    <div class='review clearfix'>
+                                        <div class='ava'><img src='ava_2.png'></div>
+                                        <div class='review-text'>
+                                            <span>Не думала, что в моем возрасте смогу выглядеть как девчонка. Всю жизнь была пышкой, а ту такая красота - сама на себя не налюбуюсь. Мой случай - подтверждение того, что после 40 жизнь только начинается. Мила Гриценко - мой герой.</span>
+                                            <span class='name'>Марина, 40 лет</span>
+                                            <span class='city'>Мачулищи</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class='double-review clearfix'>
+                                    <div class='review clearfix'>
+                                        <div class='ava'><img src='ava_1.png'></div>
+                                        <div class='review-text'>
+                                            <span>Никогда не готовила ничего сложнее отварных макарон. Теперь готовлю, как шеф-повар модного ресторана! ВСе безумно вкусно и полезно. И тающие килограммы в качестве бонуса. Разве не прекрасно?</span>
+                                            <span class='name'>Марта, 28 лет</span>
+                                            <span class='city'>Гомель</span>
+                                        </div>
+                                    </div>
+                                    <div class='review clearfix'>
+                                        <div class='ava'><img src='ava_2.png'></div>
+                                        <div class='review-text'>
+                                            <span>Не думала, что в моем возрасте смогу выглядеть как девчонка. Всю жизнь была пышкой, а ту такая красота - сама на себя не налюбуюсь. Мой случай - подтверждение того, что после 40 жизнь только начинается. Мила Гриценко - мой герой.</span>
+                                            <span class='name'>Марина, 40 лет</span>
+                                            <span class='city'>Мачулищи</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class='double-review clearfix'>
+                                    <div class='review clearfix'>
+                                        <div class='ava'><img src='ava_1.png'></div>
+                                        <div class='review-text'>
+                                            <span>Никогда не готовила ничего сложнее отварных макарон. Теперь готовлю, как шеф-повар модного ресторана! ВСе безумно вкусно и полезно. И тающие килограммы в качестве бонуса. Разве не прекрасно?</span>
+                                            <span class='name'>Марта, 28 лет</span>
+                                            <span class='city'>Гомель</span>
+                                        </div>
+                                    </div>
+                                    <div class='review clearfix'>
+                                        <div class='ava'><img src='ava_2.png'></div>
+                                        <div class='review-text'>
+                                            <span>Не думала, что в моем возрасте смогу выглядеть как девчонка. Всю жизнь была пышкой, а ту такая красота - сама на себя не налюбуюсь. Мой случай - подтверждение того, что после 40 жизнь только начинается. Мила Гриценко - мой герой.</span>
+                                            <span class='name'>Марина, 40 лет</span>
+                                            <span class='city'>Мачулищи</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </main>
+        </div>
+        <script src="valid.js" type="text/javascript"></script>
+        <script src="date.js" type="text/javascript"></script>
+        <script>
+            $(document).ready(function() {
+                $('.bxslider').bxSlider({}); // слайдер
+            });
+        </script> 
+        
+    </body>
+</html>

@@ -1,0 +1,343 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-family: 'ProximaNovaRegular';
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+@font-face {
+    font-family: 'ProximaNovaRegular';
+    src: url('fonts/ProximaNova/Proxima Nova Regular.otf');
+}
+@font-face {
+    font-family: 'ProximaNovaBold';
+    src: url('fonts/ProximaNova/Proxima Nova Bold.otf');
+}
+@font-face {
+    font-family: 'ProximaNovaExtraBold';
+    src: url('fonts/ProximaNova/Proxima Nova Condensed Extrabold.otf');
+}
+@font-face {
+    font-family: 'BebasNeueBold';
+    src: url('fonts/ProximaNova/BebasNeue Bold.otf');
+}
+.body {
+    width: 100%;
+    min-width: 320px;
+}
+header {
+    height: 195px;
+    background-color: #f5f5f5;
+    text-align: center;
+    line-height: 135px;
+    font-size: 42px;
+    text-transform: uppercase;
+    font-family: 'ProximaNovaBold';
+    color: #3c3636;
+    width: 100%;
+}
+header:before {
+    content: '';
+    display: block;
+    height: 10px;
+    background-color: #ffd200;
+}
+.basic {
+    height: 380px;
+    background-color: #ffd200;
+    box-sizing: border-box;
+}
+.basic>div {
+    width: 1200px;
+    margin: 0 auto;
+}
+.basic-1-2 {
+    width: 810px;
+    float: left;
+}
+.basic-1 {
+    width: 440px;
+    float: left;
+    padding-left: 45px;
+    box-sizing: border-box;
+    margin-top: 42px;
+}
+.basic-1 span:nth-child(1) {
+    display: block;
+    font-size: 58px;
+    text-transform: uppercase;
+    font-family: 'BebasNeueBold';
+    line-height: 52px;
+    
+}
+.basic-1 span:nth-child(1):after {
+    display: block;
+    content: '';
+    height: 1px;
+    background-color: #e3bb00;
+    margin: 16px 0 21px 0;
+    
+}
+.basic-1>* {
+    font-size: 19px;
+}
+.basic-1>ul {
+    margin: 20px 0 0 20px ;
+}
+.basic-2 {
+    float: right;
+    width: 334px;
+    height: 491px;
+    background: url("land_book_ok-ok.png") 50% no-repeat;
+    margin-top: -60px;
+}
+.basic-3 {
+    float: right;
+    width: 330px;
+    height: 380px;
+    background-color: #3c3636;
+    box-sizing: border-box;
+    padding-top: 27px;
+}
+.basic-3 div {
+    width: 100%;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+div.for-free {
+    text-transform: uppercase;
+    color: ;
+    font-size: 47px;
+    color: #ffd200;
+    font-family: 'ProximaNovaExtraBold';
+    line-height: 35px;
+    margin-top: 12px;
+    margin-bottom: 9px;
+    letter-spacing: 1px;
+}
+.basic-3 input {
+    border: none;
+    margin: 0 0 19px 23px;
+    width: 280px;
+    height: 55px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color: black;
+    font-size: 20.5px;
+    padding-left: 15px;
+}
+form {
+    margin-top: 27px;
+}
+#submit {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 23.6px;
+    background: linear-gradient(to top, #8b183a, #ff6693);
+    font-family: 'ProximaNovaBold';
+    padding: 0;
+}
+.addit {
+    height: 190px;
+    width: 1200px;
+    font-size: 27.5px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 85px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #dfdfdf;
+    margin-bottom: 52px;
+}
+.arrow {
+    position: relative;
+    bottom:  160px;
+    left: 337px;
+}
+.addit>span {
+    font-family: 'ProximaNovaBold';
+    display: block;
+    margin: 0 auto; 
+    width: 540px;
+}
+a {
+    font-size: 100px;
+}
+.reviews {
+    width: 1320px;
+    margin: 0 auto;
+    margin-bottom: 630px;
+}
+.double-review {
+    width: 1200px;
+    margin: 0 auto;
+}
+.review {
+    width: 575px;
+}
+.review:nth-child(1) {
+    float: left;
+}
+.review:nth-child(2) {
+    float: right;
+}
+.ava {
+    float: left;
+}
+.review-text {
+    float: right;
+    width: 380px;
+}
+.review-text>span:nth-child(1) {
+    font-size: 18px;
+}
+.review-text>span:nth-child(1):after {
+    content: '';
+    display: block;
+    background-color: yellow;
+    height: 1px;
+    margin-top: 18px;
+}
+.name {
+    display: block;
+    font-size: 23px;
+    font-family: 'ProximaNovaBold';
+}
+.name:before {
+    content: '';
+    display: block;
+    background-color: yellow;
+    height: 14px;
+    width: 14px;
+    margin: -1px 0 15px 0;
+} 
+.city {
+   font-size: 16px;
+   font-size: 16px;
+}
+.to-left {
+    float: left;
+    margin-top: 15px;
+    margin-right: 35px;
+}
+.to-left img{
+    
+}
+.to-right {
+    float: right;
+}
+.to-right img {
+    transform: rotate(180deg);
+    
+}
+.black-switcher {
+    height: auto;
+    width: 1320px;
+    margin: 0 auto;
+}
+.bx-viewport {
+    height: auto !important;
+}
+@media screen and (max-width: 1360px) {
+  .basic {
+      height: auto;
+  }
+  .basic>div,
+    .basic-1-2  { 
+    width: 100%;
+  }
+  .basic-1-2,
+  .basic-1,
+  .basic-2,
+  .basic-3 {
+      float: none;
+  }
+  .basic-2 {
+      margin-top: 0;
+      margin-bottom: 30px !important;
+  }
+  .basic-3 {
+      width: 70%;
+  }
+  .basic-3  input{
+      width: 80%;
+      margin-left: 10%;
+  }
+  .addit {
+      width: 100%;
+  }
+  .black-switcher {
+      width: 100%;
+  }
+  .double-review {
+      width: 100%;
+  }
+  .review {
+      float: none !important;
+      margin-top: 15px;
+  }
+  .basic-1 span:nth-child(2),
+    .basic-1 ul{
+      font-size: 40px;
+  }
+  .basic-1,
+  .basic-2,
+  .basic-3,
+  .review {
+      margin: 0 auto;
+  }
+  .basic-1 {
+      padding-top: 42px;
+  }
+  .arrow {
+      display: none;
+  }
+}
+@media screen and (max-width: 980px) {
+    header {
+        height: auto;
+        line-height: 50px;
+    }
+  .basic-1,
+  .basic-2{
+      margin-bottom: 10px;
+      width: 80%;
+  }
+  .basic-2{
+      height: 800px;
+      transform: scale(1.2); 
+      
+  }
+  
+}
+@media screen and (max-width: 640px) {
+    .basic-1 ul {
+        font-size: 30px;
+    }
+    .addit {
+        height: auto;
+    }
+  .addit>span {
+      font-size: 45px !important;
+      width: 100%;
+  }
+  .review {
+      width: 70%;
+      margin-bottom: 30px;
+  }
+  .ava,
+    .review-text   {
+      float: none;
+  }
+  .review-text  {
+      width: auto;
+  }
+  .review-text span {
+      font-size: 45px;
+  }
+}
