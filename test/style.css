@@ -111,7 +111,6 @@ header:before {
 }
 div.for-free {
     text-transform: uppercase;
-    color: ;
     font-size: 47px;
     color: #ffd200;
     font-family: 'ProximaNovaExtraBold';
@@ -243,6 +242,9 @@ a {
 .bx-viewport {
     height: auto !important;
 }
+.bx-wrapper .bx-pager {
+    display: none !important;
+}
 @media screen and (max-width: 1360px) {
   .basic {
       height: auto;
@@ -258,6 +260,7 @@ a {
       float: none;
   }
   .basic-2 {
+      width: 70%;
       margin-top: 0;
       margin-bottom: 30px !important;
   }
