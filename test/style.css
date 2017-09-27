@@ -259,8 +259,10 @@ a {
   .basic-3 {
       float: none;
   }
-  .basic-2 {
+  .basic-1 {
       width: 70%;
+  }
+  .basic-2 {
       margin-top: 0;
       margin-bottom: 30px !important;
   }
