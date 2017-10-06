@@ -311,14 +311,21 @@ a {
   .basic-1,
   .basic-2{
       margin-bottom: 10px;
-      width: 80%;
+      width: 95%;
   }
+  
   .basic-2{
       height: 800px;
       transform: scale(1.2); 
       
   }
-  
+  .basic-3 {
+      width: 100%;
+  }
+  .basic-3 input {
+      margin-left: 5%;
+      width: 90%;
+  }
 }
 @media screen and (max-width: 640px) {
     .basic-1 ul {
